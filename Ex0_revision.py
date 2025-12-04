@@ -38,6 +38,12 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+price = 45.00
+VAT_RATE = 0.20
+total_cost = price + (price * VAT_RATE)
+print(f"totol cost is {total_cost:.2f}")
+
+
 
 # -------------------------------------------
 # CHECKPOINT
