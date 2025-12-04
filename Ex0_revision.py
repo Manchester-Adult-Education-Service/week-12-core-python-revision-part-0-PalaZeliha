@@ -77,6 +77,19 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+budget = 250
+
+price = 45.00
+VAT_RATE = 0.20
+total_cost = price + (price * VAT_RATE)
+
+if total_cost <= budget:
+    print("Purchase approved: Within budget.")
+elif total_cost > budget and total_cost < 60:
+    print("Warning: Purchase exceeds budget but is manageable.")
+else:
+    print("Purchase denied: Budget severely exceeded")
+
 
 # -------------------------------------------
 # CHECKPOINT
